@@ -25,7 +25,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     controller.addStatusListener((status) {});
     controller.addListener(() {
       setState(() {});
-      print(controller.value);
     });
     animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
         .animate(controller);
